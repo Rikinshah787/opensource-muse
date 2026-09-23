@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MuseOpenSource</title>
+    <meta
+      name="description"
+      content="An open creative studio for shaping briefs, sparks, palettes, and reusable concept boards."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101619'/%3E%3Cpath d='M16 42c11-1 14-20 30-20-7 5-8 15-2 22-9-4-17-3-28-2Z' fill='%23f5c76b'/%3E%3Ccircle cx='42' cy='20' r='5' fill='%237bd3c6'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="studio-panel" aria-label="Project brief">
+        <div class="brand-lockup">
+          <span class="mark" aria-hidden="true"></span>
+          <div>
+            <p class="eyebrow">MuseOpenSource</p>
+            <h1>Shape the raw idea before it gets precious.</h1>
+          </div>
+        </div>
+
+        <label for="brief">Project brief</label>
+        <textarea id="brief" spellcheck="true">
+Build a cinematic, useful creative concept around a tiny independent music archive.</textarea
+        >
+
+        <div class="control-grid">
+          <label>
+            Tone
+            <select id="tone">
+              <option>cinematic</option>
+              <option>quiet</option>
+              <option>playful</option>
+              <option>archival</option>
+              <option>electric</option>
+            </select>
+          </label>
+          <label>
+            Format
+            <select id="format">
+              <option>campaign</option>
+              <option>product</option>
+              <option>story</option>
+              <option>exhibit</option>
+              <option>prototype</option>
+            </select>
+          </label>
+        </div>
+
+        <button id="sparkButton" class="primary-button">Generate sparks</button>
+        <button id="clearButton" class="ghost-button">Reset board</button>
+      </aside>
+
+      <section class="workspace" aria-label="Creative workspace">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Open idea board</p>
+            <h2>Concepts, palettes, and pressure points</h2>
+          </div>
+          <p class="save-state" id="saveState">Saved on this device</p>
+        </div>
+
+        <section class="idea-grid" id="ideaGrid" aria-live="polite"></section>
+
+        <section class="lower-grid">
+          <article class="tool-panel">
+            <div class="panel-heading">
+              <h3>Mood lanes</h3>
+              <button id="shuffleMood" class="icon-button" aria-label="Shuffle mood lanes">↻</button>
+            </div>
+            <div class="mood-list" id="moodList"></div>
+          </article>
+
+          <article class="tool-panel">
+            <div class="panel-heading">
+              <h3>Palette</h3>
+              <button id="copyPalette" class="icon-button" aria-label="Copy palette">⧉</button>
+            </div>
+            <div class="palette" id="palette"></div>
+            <p class="microcopy" id="paletteStatus">Balanced for editorial contrast.</p>
+          </article>
+
+          <article class="tool-panel pinned-panel">
+            <div class="panel-heading">
+              <h3>Pinned</h3>
+              <span id="pinCount">0</span>
+            </div>
+            <div class="pinned-list" id="pinnedList"></div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
