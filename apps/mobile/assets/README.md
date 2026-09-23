@@ -1,5 +1,5 @@
-# OpenSource Muse capybara
+# OpenSource Muse spark mascot
 
-`capybara.png` is original artwork generated for OpenSource Muse with the built-in image-generation tool on September 16, 2026. The transparent PNG is bundled locally and used by the shared `Mascot` component. Sky, sand and lilac backgrounds preserve the avatar color preference. The asset is included under this repository's MIT license.
+`muse-spark.png` is original artwork generated for OpenSource Muse with the built-in image-generation tool on September 22, 2026. The transparent PNG is bundled locally and used by the shared `Mascot` component. Sky, sand and lilac backgrounds preserve the avatar color preference. The asset is included under this repository's MIT license.
 
-Generation prompt: “An original friendly capybara assistant mascot, with a broad boxy rounded snout, small round ears, tiny relaxed eyes, a squat body and short legs. Sitting in a gentle three-quarter view, with warm caramel and oat tan coloring, a calm expression, a soft clay/plush finish and restrained detail readable at 48–96 pixels. Entire character centered on a transparent background. One character, no clothing, props, text, logos or watermark.”
+Generation prompt: “Create an original friendly mascot for OpenSource Muse as a small glowing open-source muse character: a rounded star/spark figure with two simple eyes, subtle arms, and a tiny open terminal/window motif integrated into its body. Polished soft 3D clay/plush illustration, readable at 48 to 96 pixels, centered on a transparent background. No text, logos, watermark, animal anatomy, snout, ears, hooves, paws, or fur.”

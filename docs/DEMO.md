@@ -1,6 +1,6 @@
 # Demos
 
-Updated September 16, 2026. Both recordings feature OpenSource Muse's original capybara mascot and the current composer: the send arrow changes to a stop square inside the input pill while OpenSource Muse replies, then returns when the run ends. The mobile story explores websites; the desktop story starts with email and continues into related research.
+Updated September 16, 2026. The recordings show the upstream-era mascot and the current composer: the send arrow changes to a stop square inside the input pill while OpenSource Muse replies, then returns when the run ends. The mobile story explores websites; the desktop story starts with email and continues into related research.
 
 ## Mobile
 
@@ -110,4 +110,4 @@ python3 -m http.server 8081 --bind 127.0.0.1 --directory apps/mobile/dist/web
 
 Use port 8081 when the development server is stopped. `--clear` ensures the export uses the requested API URL. Open the page in a clean desktop browser and record the two prompts and takeover flow at 1440 × 810 or larger. Describe the model setup in the accompanying recording notes. Scroll to keep the browser card and resulting text readable.
 
-The original [75-second alpha walkthrough](https://github.com/jerelvelarde/OpenSource Muse/releases/download/v0.1.0-alpha/OpenSource Muse-demo.mp4) remains available as a historical release archive. OpenSource Muse's [capybara artwork and provenance](../apps/mobile/assets/README.md) are included under the repository's MIT license.
+The original 75-second alpha walkthrough remains available as historical release context. OpenSource Muse's [spark mascot artwork and provenance](../apps/mobile/assets/README.md) are included under the repository's MIT license.

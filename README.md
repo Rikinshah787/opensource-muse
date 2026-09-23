@@ -2,7 +2,7 @@
 
 # OpenSource Muse
 
-**A personal agent with a browser, terminal, files, and work that keeps going. Compatible with any agent harness.**
+**A community-owned personal agent with a browser, terminal, files, and work that keeps going. Built to be studied, remixed, and self-hosted by the people who use it.**
 
 Ask for an outcome. Follow the plan, review actions, and come back to the result.
 Built with CopilotKit React Native for iOS, Android, and web.
@@ -12,9 +12,7 @@ Built with CopilotKit React Native for iOS, Android, and web.
 [![CI](https://github.com/CopilotKit/OpenSource Muse/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/OpenSource Muse/actions/workflows/ci.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Clone this template and customize it however you want.
-
-**[Building on OpenSource Muse? Meet with the CopilotKit team →](https://www.copilotkit.ai/OpenSource Muse)**
+Clone it, inspect it, change it, and ship your own agent workspace. OpenSource Muse is meant to be understandable source, not a black-box assistant.
 
 [![OpenSource Muse 🪁 — Ask it to browse. Watch the 38-second mobile demo.](assets/demos/2026-09-16/mobile.png)](assets/demos/2026-09-16/mobile.mp4)
 
@@ -26,7 +24,7 @@ Clone this template and customize it however you want.
 
 </div>
 
-> **Alpha, for self-hosting and building on.** Open-ended reasoning, live Google accounts, and CopilotKit Rich Threads require their own configuration. See [what is verified](docs/VERIFICATION.md) and the [roadmap](ROADMAP.md).
+> **Alpha, for the people who want their agent stack in the open.** Open-ended reasoning, live Google accounts, and CopilotKit Rich Threads require their own configuration. See [what is verified](docs/VERIFICATION.md) and the [roadmap](ROADMAP.md).
 
 ## Demo
 
@@ -38,7 +36,7 @@ The 38-second iPhone and 42-second desktop web demos show the current interface,
 
 ## What it is
 
-OpenSource Muse is a personal-agent application with an agent computer, visible work, and rich results. It runs its own server, task worker, and browser worker. You can inspect and change the source under the MIT license.
+OpenSource Muse is a public, self-hostable personal-agent application with an agent computer, visible work, and rich results. It runs its own server, task worker, and browser worker. You can inspect, change, and redistribute the source under the MIT license.
 
 The computer combines **persistent Chromium and an optional Linux workspace**. The agent can browse public pages, run commands in its own container, work with files, and move PDFs between the computer and the app. You can open its browser or terminal and continue the work. Graphical desktops and autonomous checkout remain future work.
 
@@ -64,8 +62,8 @@ The [feature inventory](docs/FEATURES.md) describes implemented capabilities and
 **Requirements:** Node 24 LTS and pnpm 11.19.0. The local sample app needs no model, Google account, Docker, or Intelligence subscription.
 
 ```sh
-git clone https://github.com/CopilotKit/OpenSource Muse.git OpenSource Muse
-cd OpenSource Muse
+git clone https://github.com/your-org/opensource-muse.git
+cd opensource-muse
 pnpm install --frozen-lockfile
 cp .env.example .env
 pnpm dev
