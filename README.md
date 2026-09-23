@@ -7,12 +7,14 @@
 Ask for an outcome. Follow the plan, review actions, and come back to the result.
 Built with CopilotKit React Native for iOS, Android, and web.
 
-[Quick start](#quick-start) · [Demo](#demo) · [Features](#features) · [Architecture](#architecture) · [Docs](docs/README.md) · [Contributing](CONTRIBUTING.md)
+[Quick start](#quick-start) · [Demo](#demo) · [Features](#features) · [Architecture](#architecture) · [Launch plan](LAUNCH.md) · [Docs](docs/README.md) · [Contributing](CONTRIBUTING.md)
 
-[![CI](https://github.com/CopilotKit/OpenSource Muse/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/OpenSource Muse/actions/workflows/ci.yml)
+[![CI](https://github.com/Rikinshah787/opensource-muse/actions/workflows/ci.yml/badge.svg)](https://github.com/Rikinshah787/opensource-muse/actions/workflows/ci.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Clone it, inspect it, change it, and ship your own agent workspace. OpenSource Muse is meant to be understandable source, not a black-box assistant.
+
+⭐ **If you want personal agents to stay open and hackable, star the repo and build with us.**
 
 [![OpenSource Muse 🪁 — Ask it to browse. Watch the 38-second mobile demo.](assets/demos/2026-09-16/mobile.png)](assets/demos/2026-09-16/mobile.mp4)
 
@@ -62,7 +64,7 @@ The [feature inventory](docs/FEATURES.md) describes implemented capabilities and
 **Requirements:** Node 24 LTS and pnpm 11.19.0. The local sample app needs no model, Google account, Docker, or Intelligence subscription.
 
 ```sh
-git clone https://github.com/your-org/opensource-muse.git
+git clone https://github.com/Rikinshah787/opensource-muse.git
 cd opensource-muse
 pnpm install --frozen-lockfile
 cp .env.example .env
