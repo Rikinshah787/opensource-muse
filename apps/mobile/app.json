@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "OpenSource Muse",
+    "slug": "opensource-muse",
+    "scheme": "opensourcemuse",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "app.opensourcemuse.mobile" },
+    "android": { "package": "app.opensourcemuse.mobile" },
+    "web": { "bundler": "metro", "name": "OpenSource Muse — open agent workbench" },
+    "plugins": [
+      "expo-document-picker",
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ]
+  }
+}
